@@ -16,7 +16,9 @@ export default {
     name: "Home",
     data() {
         return {
-            user: {},
+            user: {
+                user: "alireza",
+            },
         };
     },
     mounted() {
